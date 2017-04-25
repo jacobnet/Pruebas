@@ -1,14 +1,16 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
   <head>
+  <?php require 'php/ComprobarSesion.php'; ?>
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Cognitivo</title>
+  <script src="js/ValidarSeccion1.js" ></script>
 	<link rel="stylesheet" href="css/demo.css">
   <link rel="stylesheet" href="css/seccion1.css">
-  <script src="js/ValidarSeccion1.js" ></script>
-  <?php require 'Barra2.php';?>
+  <link rel="stylesheet" href="css/stylo3.css">
+  <?php require 'Barra2.php'; require 'material/indicador3.php';?>
     
   </head>  
   <body>

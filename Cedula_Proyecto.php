@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
+    <?php require 'php/ComprobarSesion.php'; ?>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Cognitivo</title>
-
+    <script src ="js/ValidarCedulaProyecto.js"></script>
 	<link rel="stylesheet" href="css/demo.css">
 	<link rel="stylesheet" href="css/form-basic.css">
-    <script src ="js/ValidarCedulaProyecto.js"></script>
-    <?php require 'Barra2.php';?>
+    <link rel="stylesheet" href="css/stylo2.css">
+    <?php require 'Barra2.php'; require 'material/indicador2.php'; ?>
+
 
 </head>
 

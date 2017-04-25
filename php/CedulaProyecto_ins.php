@@ -2,14 +2,13 @@
 
 	include("conexion.php");
 
-	// session_start();
-	// if (isset($_SESSION['u_usuario'])) {
-	// 	$usuario=$_SESSION['u_usuario'];
-	// }else{
- //    	header("Location: index.php");
-	// }
+	session_start();
+	if (isset($_SESSION['u_usuario'])) {
+		$usuario=$_SESSION['u_usuario'];
+	}else{
+		header("Location: index.php");
+	}
 	$Puntuacion= 0;
-	$usuario = "correo@algo.com";
 	$Nombre = $_POST['Nombre'];
 	$Establecido = $_POST['Establecido'];
 	if ($Establecido == "Si") {

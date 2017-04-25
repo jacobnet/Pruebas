@@ -1,6 +1,12 @@
 <?php 
+		session_start();
+	if (isset($_SESSION['u_usuario'])) {
+		$usuario=$_SESSION['u_usuario'];
+	}else{
+		header("Location: index.php");
+	}
 	include("conexion.php");
-	$usuario = "asdas@asd.asd";
+
 	$modalidad1_1    = $_POST['modalidad11'];
 	$modalidad1_2    = $_POST['modalidad12'];
 	if ($modalidad1_1 == "No" && $modalidad1_2 == "No") {

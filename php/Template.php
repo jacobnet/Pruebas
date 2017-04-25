@@ -1,4 +1,10 @@
 <?php
+	session_start();
+	if (isset($_SESSION['u_usuario'])) {
+		$usuario=$_SESSION['u_usuario'];
+	}else{
+		header("Location: index.php");
+	}
 include("conexion.php");
 if (!$conexion) {
 	echo "Error al realizar la conexion";

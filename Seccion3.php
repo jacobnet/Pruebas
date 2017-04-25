@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <?php require 'php/ComprobarSesion.php'; ?>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>disponibilidad</title>
+    <script src = "js/ValidarSeccion3.js"></script>
     <link rel="stylesheet" href="css/demo.css">
     <link rel="stylesheet" href="css/form-basic1.css">
-    <script src = "js/ValidarSeccion3.js"></script>
+    <link rel="stylesheet" href="css/stylo5.css">
+    <?php require 'Barra2.php'; require 'material/indicador5.php'; ?>
+    
 </head>
 <body>
 
@@ -173,11 +177,11 @@
                 <br><label for="sec6">¿Qué tanto consideras que otros pueden imitar tu proyecto?</label><br><br>
                 <select name="sec6" id="sec6">
                     <option value="">Seleccione una opción</option>
-                    <option value="Es muy imitable ya que para el diseño del proyecto tome referencia uno que ya existe">a)Es muy imitable ya que para el diseño del proyecto tome referencia uno que ya existe</option>
-                    <option value="El proyecto resulta facilmente imitable por un posible competidor">b)El proyecto resulta facilmente imitable por un posible competidor</option>
-                    <option value="El proyecto es dificilmente imitable por un posible competidor">c)El proyecto es dificilmente imitable por un posible competidor</option>
-                    <option value="La invencion desarrollada es inédita(que yo tenga conocimiento no se tiene antecedentes de ningun tipo)">d)La invencion desarrollada es inédita(que yo tenga conocimiento no se tiene antecedentes de ningun tipo)</option>
-                    <option value="Desconozco el grado de imitabilidad del proyecto">e)Desconozco el grado de imitabilidad del proyecto</option>
+                    <option value="a">a) Es muy imitable ya que para el diseño del proyecto tome referencia uno que ya existe</option>
+                    <option value="b">b) El proyecto resulta facilmente imitable por un posible competidor</option>
+                    <option value="c">c) El proyecto es dificilmente imitable por un posible competidor</option>
+                    <option value="d">d) La invencion desarrollada es inédita(que yo tenga conocimiento no se tiene antecedentes de ningun tipo)</option>
+                    <option value="e">e) Desconozco el grado de imitabilidad del proyecto</option>
                 </select>
             </div>
 

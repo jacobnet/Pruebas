@@ -6,19 +6,19 @@ function ValidarS5() {
 	op5 = document.getElementById('seleccion5').value;
 
 	if (op1 === "") {
-		alert("Todos los campos son requeridos");
+		document.getElementById('seleccion1').focus();
 		return false;
 	}else if (op2 === "") {
-		alert("Todos los campos son requeridos");
+		document.getElementById('seleccion2').focus();
 		return false;
 	}else if (op3 === "") {
-		alert("Todos los campos son requeridos");
+		document.getElementById('seleccion3').focus();
 		return false;
 	}else if (op4 === "") {
-		alert("Todos los campos son requeridos");
+		document.getElementById('seleccion4').focus();
 		return false;
 	}else if (op5 === "") {
-		alert("Todos los campos son requeridos");
+		document.getElementById('seleccion5').focus();
 		return false;
 	}
 }

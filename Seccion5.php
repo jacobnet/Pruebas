@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+      <?php require 'php/ComprobarSesion.php'; ?>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src = "js/ValidarSeccion5.js" ></script>
 	<title>experiencia en el proyecto</title>
 	<link rel="stylesheet" href="css/demo.css">
 	<link rel="stylesheet" href="css/form-basic1.css">
-      <script src = "js/ValidarSeccion5.js" ></script>
+      <link rel="stylesheet" href="css/stylo7.css">
+      <?php require 'Barra2.php'; require'material/indicador7.php'; ?>
 </head>
 <body>
 	<div class="main-content">
-		<form class="form-basic" method="post" action="#" onsubmit="return ValidarS5();">
+		<form class="form-basic" method="post" action="php/Seccion5_ins.php" onsubmit="return ValidarS5();">
 			<div class="form-title-row">
                 <h1>EXPERIENCIA EN EL PROYECTO</h1>
             </div>

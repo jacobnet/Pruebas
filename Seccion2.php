@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<?php require 'php/ComprobarSesion.php'; ?>
 		<meta charset="utf-8">
 		<title></title>
-		<link rel="stylesheet" href="css/form-basic2.css">
 		<script src="js/ValidarSeccion2.js" ></script>
+		<link rel="stylesheet" href="css/form-basic2.css">
+		<link rel="stylesheet" href="css/demo.css">
+		<link rel="stylesheet" href="css/stylo4.css">
+		<?php require 'Barra2.php'; require'material/indicador4.php'; ?>
 	</head>
 	<body>
 		<div class="main-content">

@@ -1,14 +1,12 @@
 <?php
 
 	include("conexion.php"); 
-	// session_start();
-// if (isset($_SESSION['u_usuario'])) {
-	// $usuario=$_SESSION['u_usuario'];
-// }else{
-    // header("Location: index.php");
-// }
-
-	$usuario="correo@algo.com";
+	session_start();
+	if (isset($_SESSION['u_usuario'])) {
+		$usuario=$_SESSION['u_usuario'];
+	}else{
+		header("Location: index.php");
+	}
 	$Valor= 0;
 	$Nombre	=$_POST['Nombre']; 
 	$Fecha	=$_POST['Fecha'];

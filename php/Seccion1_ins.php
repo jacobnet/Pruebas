@@ -1,8 +1,12 @@
 <?php 
-
+	session_start();
+	if (isset($_SESSION['u_usuario'])) {
+		$usuario=$_SESSION['u_usuario'];
+	}else{
+		header("Location: index.php");
+	}
 
 	include("conexion.php");
-	$usuario ="asdas@asd.asd";
 	$Puntuacion = 0;
 	$Respuesta ="";
 	if (isset($_REQUEST['radio1_1'])) {
